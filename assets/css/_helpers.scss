@@ -1,0 +1,19 @@
+//FONT IMPORTS
+@import url("https://fonts.googleapis.com/css?family=Akronim|Merriweather:300&display=swap");
+
+//COLOR VARIABLES
+$background: #747d8c;
+$font: #f1f2f6;
+$primary: #ff6b81;
+$accent: #70a1ff;
+
+//FONT VARIABLES
+$heading: "Akronim";
+$para: "Merriweather";
+
+//MIXINS
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
